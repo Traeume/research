@@ -1449,7 +1449,7 @@ function compute_precision(U, V, X, Y, d1, d2, rows, vals, rows_t)
 				for k in length(K):-1:1
 					if c <= K[k]
 						precision[k] += 1
-					else:
+					else
 						break
 					end
 				end
